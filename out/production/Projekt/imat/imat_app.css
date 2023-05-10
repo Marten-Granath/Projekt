@@ -21,7 +21,9 @@
     -fx-cursor: hand;
     -fx-background-color: A2D085;
 }
-
+.logo{
+    -fx-cursor: hand;
+}
 .search-bar{
     -fx-border-radius: 30px;
     -fx-background-radius: 30px;
