@@ -5,6 +5,7 @@
   }
 
 .top-bar{
+    -fx-background-color: A2D085;
 }
 
 .bar-buttons{
@@ -13,6 +14,11 @@
     -fx-border-radius: 40px;
     -fx-background-radius: 40px;
     -fx-border-style: solid;
+    -fx-border-width: 2px;
+}
+
+.bar-buttons:hover{
+    -fx-background-color: A2D085;
 }
 
 .search-bar{
