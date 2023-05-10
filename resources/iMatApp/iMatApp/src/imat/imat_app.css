@@ -18,6 +18,7 @@
 }
 
 .bar-buttons:hover{
+    -fx-cursor: hand;
     -fx-background-color: A2D085;
 }
 
