@@ -9,23 +9,23 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@../../../../../../../../../../Projekt/resources/iMatApp/src/imat/imat_app.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="783.0" prefWidth="1280.0" stylesheets="@../../../../../../../../../../Projekt/resources/iMatApp/src/imat/imat_app.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane layoutX="-21.0" layoutY="21.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #C0C0C0;" stylesheets="@imat_app.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <AnchorPane layoutX="860.0" layoutY="-56.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="138.0" prefWidth="1920.0" styleClass="top-bar" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <AnchorPane layoutX="860.0" layoutY="-56.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="110.0" prefWidth="1280.0" styleClass="top-bar" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <Text layoutX="14.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="logo" text="iMat" wrappingWidth="147.9013671875">
+                  <Text layoutX="14.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="logo" text="iMat" wrappingWidth="147.9013671875">
                      <font>
                         <Font name="Impact" size="70.0" />
                      </font>
                   </Text>
-                  <TextField fx:id="searchArea" alignment="BOTTOM_LEFT" layoutX="162.0" layoutY="50.0" prefHeight="49.0" prefWidth="639.0" promptText="Sök..." styleClass="search-bar" AnchorPane.bottomAnchor="39.0" AnchorPane.topAnchor="50.0">
+                  <TextField fx:id="searchArea" alignment="BOTTOM_LEFT" layoutX="162.0" layoutY="50.0" prefHeight="49.0" prefWidth="639.0" promptText="Sök..." styleClass="search-bar" AnchorPane.topAnchor="25.0">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </TextField>
-                  <Button fx:id="accountButtonLoggedIn" layoutX="956.0" layoutY="47.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="154.0" styleClass="bar-buttons" stylesheets="@imat_app.css" text="Mitt namn" AnchorPane.topAnchor="47.0">
+                  <Button fx:id="accountButtonLoggedIn" layoutX="956.0" layoutY="47.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="154.0" styleClass="bar-buttons" stylesheets="@imat_app.css" text="Mitt namn" AnchorPane.topAnchor="25.0">
                      <graphic>
                         <ImageView fitHeight="34.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -37,7 +37,7 @@
                         <Font size="19.0" />
                      </font>
                   </Button>
-                  <Button fx:id="accountButton" layoutX="956.0" layoutY="47.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="154.0" styleClass="bar-buttons" stylesheets="@imat_app.css" text="Mitt konto" AnchorPane.topAnchor="47.0">
+                  <Button fx:id="accountButton" layoutX="956.0" layoutY="47.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="154.0" styleClass="bar-buttons" stylesheets="@imat_app.css" text="Mitt konto" AnchorPane.topAnchor="25.0">
                      <graphic>
                         <ImageView fitHeight="41.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -49,7 +49,7 @@
                         <Font size="19.0" />
                      </font>
                   </Button>
-                  <Button fx:id="cartButton" layoutX="1124.0" layoutY="47.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="134.0" styleClass="bar-buttons" stylesheets="@imat_app.css" text="0,00 kr" AnchorPane.topAnchor="47.0">
+                  <Button fx:id="cartButton" layoutX="1124.0" layoutY="47.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="134.0" styleClass="bar-buttons" stylesheets="@imat_app.css" text="0,00 kr" AnchorPane.topAnchor="25.0">
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -61,7 +61,7 @@
                         <Font size="19.0" />
                      </font>
                   </Button>
-                  <Button fx:id="helpButton" layoutX="825.0" layoutY="47.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="107.0" styleClass="bar-buttons" stylesheets="@imat_app.css" text="Hjälp" AnchorPane.topAnchor="47.0">
+                  <Button fx:id="helpButton" layoutX="825.0" layoutY="47.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="107.0" styleClass="bar-buttons" stylesheets="@imat_app.css" text="Hjälp" AnchorPane.topAnchor="25.0">
                      <font>
                         <Font size="19.0" />
                      </font>
@@ -73,14 +73,14 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <ImageView fitHeight="40.0" fitWidth="35.0" layoutX="752.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="40.0" fitWidth="35.0" layoutX="752.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="35.0">
                      <image>
                         <Image url="@resources/3031293.png" />
                      </image>
                   </ImageView>
                </children>
             </AnchorPane>
-            <Line endX="881.0" endY="6.103515625E-5" layoutX="399.0" layoutY="140.0" startX="-404.0000305175781" startY="4.57763671875E-5" strokeWidth="3.0" />
+            <Line endX="881.0" endY="6.103515625E-5" layoutX="395.0" layoutY="109.0" startX="-404.0000305175781" startY="4.57763671875E-5" strokeWidth="3.0" />
          </children>
       </AnchorPane>
    </children>
