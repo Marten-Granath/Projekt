@@ -11,8 +11,14 @@
     -fx-background-color: white;
     -fx-border-color: black;
     -fx-border-radius: 40px;
+    -fx-background-radius: 40px;
     -fx-border-style: solid;
+}
 
-
-
+.search-bar{
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+    -fx-border-color : black;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
 }

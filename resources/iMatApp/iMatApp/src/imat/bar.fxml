@@ -9,31 +9,58 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: A2D085;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: A2D085;" stylesheets="@imat_app.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <AnchorPane layoutX="860.0" layoutY="-56.0" prefHeight="200.0" prefWidth="1920.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane layoutX="860.0" layoutY="-56.0" prefHeight="138.0" prefWidth="1920.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Text layoutX="34.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="iMat">
+            <Text layoutX="26.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="iMat" wrappingWidth="178.9013671875">
                <font>
                   <Font size="90.0" />
                </font>
             </Text>
-            <TextField alignment="BOTTOM_LEFT" layoutX="308.0" layoutY="43.0" prefHeight="87.0" prefWidth="913.0" promptText="Sök..." style="-fx-border-radius: 30; -fx-background-radius: 30; -fx-border-color: #000000; -fx-background-size: 2; -fx-border-style: solid;">
+            <TextField alignment="BOTTOM_LEFT" layoutX="281.0" layoutY="42.0" prefHeight="68.0" prefWidth="954.0" promptText="Sök..." styleClass="search-bar" AnchorPane.bottomAnchor="39.0" AnchorPane.topAnchor="34.0">
                <font>
-                  <Font size="40.0" />
+                  <Font size="30.0" />
                </font>
             </TextField>
-            <Button layoutX="1244.0" layoutY="47.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="170.0" styleClass="bar-buttons" stylesheets="@imat_app.css" text="Hjälp">
+            <Button layoutX="1495.0" layoutY="24.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="205.0" styleClass="bar-buttons" stylesheets="@imat_app.css" text="Mitt konto" AnchorPane.topAnchor="29.0">
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/1946429.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="1705.0" layoutY="30.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="170.0" styleClass="bar-buttons" stylesheets="@imat_app.css" text="0,00 kr" AnchorPane.topAnchor="29.0">
                <graphic>
                   <ImageView fitHeight="82.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/263142.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="1320.0" layoutY="34.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="170.0" styleClass="bar-buttons" stylesheets="@imat_app.css" text="Hjälp" AnchorPane.topAnchor="29.0">
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@resources/question-mark-circled-icon-512x512-wsm5hkwj.png" />
                      </image>
                   </ImageView>
                </graphic>
+               <font>
+                  <Font size="25.0" />
+               </font>
             </Button>
          </children>
       </AnchorPane>
-      <Line endX="1516.0" endY="4.57763671875E-5" layoutX="404.0" layoutY="200.0" startX="-404.0000305175781" startY="4.57763671875E-5" strokeWidth="3.0" />
+      <Line endX="1516.0" endY="4.57763671875E-5" layoutX="399.0" layoutY="140.0" startX="-404.0000305175781" startY="4.57763671875E-5" strokeWidth="3.0" />
    </children>
 </AnchorPane>
