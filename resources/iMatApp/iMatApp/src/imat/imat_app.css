@@ -3,3 +3,16 @@
       -fx-font-family: "Arial";
       -fx-font-weight: bold;
   }
+
+.top-bar{
+}
+
+.bar-buttons{
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-radius: 40px;
+    -fx-border-style: solid;
+
+
+
+}
