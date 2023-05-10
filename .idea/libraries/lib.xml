@@ -5,8 +5,10 @@
       <root url="jar://$PROJECT_DIR$/resources/producteditor/__MACOSX/producteditor/lib/._swing-layout-1.0.4.jar!/" />
       <root url="jar://$PROJECT_DIR$/resources/producteditor/__MACOSX/producteditor/lib/._swing-worker-1.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/resources/producteditor/__MACOSX/producteditor/lib/._projectbackend.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/JavaFX/javafx-sdk-17.0.6/lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Desktop/JavaFX/javafx-sdk-17.0.6/lib" recursive="false" />
   </library>
 </component>

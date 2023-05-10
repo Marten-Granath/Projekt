@@ -14,5 +14,6 @@
             <Image url="@resources/logo.png" />
          </image>
       </ImageView>
+      <Label layoutX="239.0" layoutY="383.0" text="Tjo" />
    </children>
 </AnchorPane>
