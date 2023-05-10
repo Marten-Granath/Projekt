@@ -3,3 +3,9 @@
       -fx-font-family: "Arial";
       -fx-font-weight: bold;
   }
+
+.top-bar{
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}

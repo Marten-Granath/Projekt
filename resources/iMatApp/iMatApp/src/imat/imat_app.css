@@ -5,7 +5,7 @@
   }
 
 .top-bar{
-    -fx-border-bottom-width: 5px;
-    -fx-border-bottom-style: solid;
-    -fx-border-bottom-color: black;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
 }
