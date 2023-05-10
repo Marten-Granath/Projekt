@@ -1,0 +1,22 @@
+- Description:
+--------------
+This document serves to detail the many design decisions for the current project.
+
+- Document:
+-----------
+
+- Colour:
+The colour light green is soothing and calming, in addition it evokes a feeling of
+being in harmony with nature. We think this choice of colour will make our target
+group more at ease while using our application, possibly increasing their tolerance
+for small irritations and frustrations. We also find that this particular shade of
+green is easy on the eyes, which may otherwise serve as hindrance.
+
+We have matched this colour with varying shades of light grey, which is mainly used
+to attract attention and offer contrast between the multiple parts which makes up a
+view. In general, we use lighter colours to draw attention and darker colours to blend
+into the background. In addition to this, we use contrasts of different hues of grey
+to clearly demarcate different components within the same view.
+
+- Font & Size:
+--------------
