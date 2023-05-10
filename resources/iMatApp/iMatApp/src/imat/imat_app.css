@@ -5,7 +5,14 @@
   }
 
 .top-bar{
-    border-bottom-width: 5px;
-    border-bottom-style: solid;
-    border-bottom-color: black;
+}
+
+.bar-buttons{
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-radius: 40px;
+    -fx-border-style: solid;
+
+
+
 }
