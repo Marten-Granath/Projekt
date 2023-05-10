@@ -5,7 +5,26 @@
   }
 
 .top-bar{
-    border-bottom-width: 5px;
-    border-bottom-style: solid;
-    border-bottom-color: black;
+    -fx-background-color: A2D085;
+}
+
+.bar-buttons{
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-radius: 40px;
+    -fx-background-radius: 40px;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+}
+
+.bar-buttons:hover{
+    -fx-background-color: A2D085;
+}
+
+.search-bar{
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+    -fx-border-color : black;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
 }
