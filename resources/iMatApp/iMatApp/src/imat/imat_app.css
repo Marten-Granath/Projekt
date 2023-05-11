@@ -13,12 +13,12 @@
 }
 
 /* Hand icon */
-.logo, .bar-buttons, .account-side-bar-button, .save-button {
+.logo, .bar-buttons, .account-side-bar-button, .save-button, .bar-buttons:hover{
     -fx-cursor: hand;
 }
 
 /* Green background */
-.save-button, .top-bar{
+.save-button, .top-bar, .bar-buttons:hover{
     -fx-background-color: A2D085;
 }
 
@@ -28,28 +28,10 @@
 }
 
 
-
-.save-button{
-}
-
 .top-bar{
-}
-
-.bar-buttons{
-
-}
-
-.bar-buttons:hover{
-    -fx-cursor: hand;
-    -fx-background-color: A2D085;
-}
-.logo{
-}
-.search-bar{
-}
-
-.account-side-bar{
-
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: black;
+    -fx-border-style: solid;
 }
 
 .account-side-bar-button{
@@ -57,4 +39,8 @@
     -fx-background-color : white;
     -fx-border-width: 2px 0 2px 0;
     -fx-border-style: solid;
+}
+
+.accountPage{
+    -fx-background-color: #C0C0C0;
 }

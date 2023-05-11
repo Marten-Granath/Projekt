@@ -55,6 +55,10 @@
 .account-side-bar-button{
     -fx-border-color : black;
     -fx-background-color : white;
-    -fx-border-width: 2px 0 2px 0;
+    /*-fx-border-width: 2px 0 2px 0;*/
     -fx-border-style: solid;
+}
+
+.middle-item{
+    -fx-border-width: 2;
 }

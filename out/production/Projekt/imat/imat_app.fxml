@@ -99,7 +99,7 @@
                               </Text>
                            </children>
                         </AnchorPane>
-                        <AnchorPane layoutX="18.0" layoutY="167.0" prefHeight="70.0" prefWidth="195.0" styleClass="account-side-bar-button" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                        <AnchorPane id="middle-item" layoutX="18.0" layoutY="167.0" prefHeight="70.0" prefWidth="195.0" styleClass="account-side-bar-button" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                            <children>
                               <Text layoutX="55.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mina listor">
                                  <font>
