@@ -12,7 +12,11 @@
    <children>
       <AnchorPane layoutX="-21.0" layoutY="21.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #C0C0C0;" stylesheets="@imat_app.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
+<<<<<<< HEAD
             <AnchorPane fx:id="topBar" layoutX="860.0" layoutY="-56.0" prefHeight="110.0" prefWidth="1280.0" styleClass="top-bar" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+=======
+            <AnchorPane layoutX="860.0" layoutY="-56.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="110.0" prefWidth="1280.0" styleClass="top-bar" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+>>>>>>> parent of 5e09b78 (Gitignore test)
                <children>
                   <Text layoutX="14.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="logo" text="iMat" wrappingWidth="147.9013671875">
                      <font>
@@ -79,6 +83,7 @@
                   </ImageView>
                </children>
             </AnchorPane>
+<<<<<<< HEAD
             <AnchorPane fx:id="minaUppgifter" layoutY="110.0" prefHeight="673.0" prefWidth="1280.0" styleClass="accountPage">
                <children>
                   <AnchorPane layoutX="14.0" layoutY="27.0" prefHeight="619.0" prefWidth="231.0" styleClass="account-side-bar">
@@ -210,6 +215,9 @@
                   <AnchorPane layoutX="317.0" layoutY="94.0" prefHeight="540.0" prefWidth="890.0" />
                </children>
             </AnchorPane>
+=======
+            <Line endX="881.0" endY="6.103515625E-5" layoutX="395.0" layoutY="109.0" startX="-404.0000305175781" startY="4.57763671875E-5" strokeWidth="3.0" />
+>>>>>>> parent of 5e09b78 (Gitignore test)
          </children>
       </AnchorPane>
    </children>
