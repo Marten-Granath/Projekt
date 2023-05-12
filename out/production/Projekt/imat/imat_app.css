@@ -1,10 +1,4 @@
-.text-sample{
-      -fx-font-size: 16px;
-      -fx-font-family: "Arial";
-      -fx-font-weight: bold;
-  }
 
-<<<<<<< HEAD
 
 /* Rounded corners*/
 .account-side-bar, .search-bar, .bar-buttons, .save-button{
@@ -49,30 +43,4 @@
 
 .accountPage{
     -fx-background-color: #C0C0C0;
-=======
-.top-bar{
-    -fx-background-color: A2D085;
-}
-
-.bar-buttons{
-    -fx-background-color: white;
-    -fx-border-color: black;
-    -fx-border-radius: 40px;
-    -fx-background-radius: 40px;
-    -fx-border-style: solid;
-    -fx-border-width: 2px;
-}
-
-.bar-buttons:hover{
-    -fx-cursor: hand;
-    -fx-background-color: A2D085;
-}
-
-.search-bar{
-    -fx-border-radius: 30px;
-    -fx-background-radius: 30px;
-    -fx-border-color : black;
-    -fx-border-width: 2px;
-    -fx-border-style: solid;
->>>>>>> parent of 5e09b78 (Gitignore test)
 }
